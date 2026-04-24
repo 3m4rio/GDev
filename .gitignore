@@ -1,0 +1,59 @@
+# ---------- Local projects ----------
+# Your own work lives under projects/ but doesn't ship with the kit.
+# The README is kept so the directory structure is visible in the repo.
+projects/*
+!projects/README.md
+
+# ---------- Local tool binaries ----------
+.tools/
+
+# ---------- Installers / binaries ----------
+*.exe
+*.dmg
+*.msi
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# ---------- Secrets / env ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+*.secret
+
+# ---------- Claude Code local state ----------
+.claude/settings.local.json
+.claude/*.local.*
+.claude/state/
+.claude/logs/
+
+# ---------- Node / JS ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---------- Editor / IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- OS cruft ----------
+.DS_Store
+Thumbs.db
+desktop.ini

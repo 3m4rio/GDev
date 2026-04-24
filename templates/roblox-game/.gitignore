@@ -1,0 +1,18 @@
+# Rojo
+sourcemap.json
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Wally packages
+Packages/
+ServerPackages/
+DevPackages/
+
+# Selene generated
+roblox.yml
+
+# OS
+.DS_Store
+Thumbs.db
