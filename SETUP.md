@@ -86,16 +86,7 @@ npx -y robloxstudio-mcp@latest --install-plugin
 
 This drops a `.rbxm` into Studio's plugins folder. If Studio is open, restart it.
 
-### 4b. Official Roblox plugin (run code, play-mode control, console)
-
-Download the installer for your OS from:  
-<https://github.com/Roblox/studio-rust-mcp-server/releases>
-
-Run it. The installer places the plugin into Studio's plugins folder and puts the `rbx-studio-mcp` binary somewhere on your machine.
-
-**Note where the binary lands** — you need that path for step 5.
-
-### 4c. Enable HTTP Requests in Studio (critical, per-experience)
+### 4b. Enable HTTP Requests in Studio (critical, per-experience)
 
 Every MCP tool silently fails without this.
 
@@ -116,11 +107,8 @@ In any terminal:
 ### Required for this kit
 
 ```bash
-# Community MCP server
+# Community MCP server (37+ tools)
 claude mcp add robloxstudio-mcp -- npx -y robloxstudio-mcp@latest
-
-# Official Roblox MCP server (use the path from step 4b)
-claude mcp add roblox-studio-official -- "<path-to>/rbx-studio-mcp" --stdio
 ```
 
 ### Optional but recommended
