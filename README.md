@@ -14,14 +14,17 @@ Clone it, drop your projects into `projects/`, and every Claude Code instance yo
 ## Quick Start
 
 1. Clone this repo
-2. Follow the **First-Time Setup** section in [CLAUDE.md](./CLAUDE.md) — installs Rokit, MCP servers, and Studio plugins
-3. Copy the template to start a project:
+2. Launch Claude Code in the repo root and say: **"help me set up GDev"**
+   — Claude will read [`SETUP.md`](./SETUP.md) and walk you through install of Rokit,
+   MCP servers, Studio plugins, and verification.
+3. Or do it yourself by following [`SETUP.md`](./SETUP.md) directly.
+4. Once set up, copy the template to start a project:
    ```bash
    cp -r templates/roblox-game projects/my-game
    cd projects/my-game
    rokit install && wally install && rojo serve
    ```
-4. Launch Claude Code in the project directory and start building
+5. Launch Claude Code in the project directory and start building.
 
 ## Who This Is For
 
